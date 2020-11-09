@@ -31,6 +31,7 @@ public class VarianceTest2 {
 	
 	
 	public static void main(String[] args) {
+		// similar for variables
 		Cage<? extends Animal> cage1 = new Cage<Bird>();
 		Animal a = cage1.getAnimal();
 //		cage1.storeAnimal(new Animal());
